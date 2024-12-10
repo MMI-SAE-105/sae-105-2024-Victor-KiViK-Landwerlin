@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : LANDERLIN
+- PRÉNOM : Victor
+- GROUPE : B2
+- URL du site : https://visionary-starlight-b85793.netlify.app/
+- URL FIGMA : https://www.figma.com/design/KNtBVN5Rq7Qqltmc7DYH38/SAE-103-Victor-Landwerlin?node-id=2-4&t=aJdkrv2TCDRVmRh7-1 
 
 ## Sujet
 
