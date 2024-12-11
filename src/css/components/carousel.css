@@ -29,9 +29,8 @@ img {
     display: flex;/* Utilise flexbox pour aligner le contenu du bouton - https://developer.mozilla.org/fr/docs/Web/CSS/display */
     align-items: center; /* Aligne le contenu du bouton au centre verticalement - https://developer.mozilla.org/fr/docs/Web/CSS/align-items */
     justify-content: center; /* Centre le contenu du bouton horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
-    border:solid 1px ; /* Bordure solide de 1px - https://developer.mozilla.org/fr/docs/Web/CSS/border */
     border-radius: 50%; /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
-    background-color: black;
+    background-color: white;
     box-shadow: var(--neon);
   }
   .carousel__button--prev {

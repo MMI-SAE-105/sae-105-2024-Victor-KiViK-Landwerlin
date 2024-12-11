@@ -55,6 +55,10 @@
     display: flex;
     gap: 16px;
 }
+.section__text{
+    font-family: Lexend;
+    font-size: var(--body);
+}
 .concert__text{
     font-family: Lexend;
     font-size: var(--body);
