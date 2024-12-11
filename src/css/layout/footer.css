@@ -1,0 +1,39 @@
+.footer {
+    padding: 20px;
+    color: white;
+    font-family: Lexend;
+    font-size: var(--body-2);
+    border-top: white 1px solid;
+}
+
+.footer__title {
+    font-size: var(--heading-1);
+    font-weight: 400;
+    font-family: Orbitron;
+    color: white;
+    text-shadow: var(--neon);
+    margin-bottom: 20px;
+}
+
+.footer__menu {
+    margin-bottom: 40px;
+}
+
+.footer__menu--item {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.footer__contact {
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+.footer__contact--item {
+    margin: 5px 0;
+}
+.footer__intertitle{
+    font-size: var(--small-small-text);
+    font-family: Orbitron;
+    color: white;
+}

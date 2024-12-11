@@ -1,0 +1,16 @@
+:root {
+  /* Styles de couleur */
+/* Text-size styles */
+--heading-1: 32px;
+--heading-2: 24px;
+--small-small-text: 9px;
+--body-2: 12px;
+--body: 14px;
+--heading-3: 16px;
+--bodymax: 16px;
+
+/* Effect styles */
+--neon:  0px 0px 25px rgba(37, 99, 235, 1), 0px 0px 25px rgba(37, 99, 235, 1), 0px 0px 25px rgba(37, 99, 235, 1);
+  /* color */
+  --bleu: #2563eb;
+}

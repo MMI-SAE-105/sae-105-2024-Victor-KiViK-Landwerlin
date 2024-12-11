@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: white 1px solid;
+}
+.header__title{
+    font-size: var(--heading-1);
+    font-family: Orbitron;
+    font-weight: 400;
+    color: white;
+    text-shadow: var(--neon);
+    margin-left: 2rem;
+}

@@ -1,0 +1,46 @@
+.section{
+    margin: 32px;
+    color: white;
+    display: block;
+    justify-content: center; 
+    align-items: center;
+}
+.section__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: Lexend;
+    font-size: var(--bodymax);
+}
+.section__info--a{
+    font-family: Sixtyfour;
+    font-size: var(--heading-1);
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    cursor: pointer;
+    font-size: large;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--bleu);
+    background-color: white;
+    padding: 0.8em 2.2em;
+    border-radius: 50em;
+    border: 6px solid #8b93f8;
+    box-shadow: 0px 8px var(--bleu);
+  }
+  .button:active {
+    position: relative;
+    top: 8px;
+    border: 6px solid #646fff;
+    box-shadow: 0px 0px;
+  }
+.button__text{
+    font-family: Orbitron;
+}
