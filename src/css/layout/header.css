@@ -11,4 +11,5 @@
     color: white;
     text-shadow: var(--neon);
     margin-left: 2rem;
+    -webkit-text-stroke:0.5px var(--bleu); ;
 }

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi'stival</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script type="module" src="src/js/script.js"></script>
+</head>
+<body>
+    <header class="header container">
+        <a href="index.html"><h1 class="header__title">SciFi'stival</h1></a>
+        <div
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar"></span>
+    </div>
+  
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Le Festival</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="programme.html">Programme</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Films</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Invités</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Infos pratiques</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="menu__round"></div>
+          </nav>
+          
+        </div>
+      </header>
+      <main>
+        <h1 class="titre">Programme</h1>
+        <section class="section">
+            <h1 class="section__title">Concert</h1>
+            <div class="section__concert">
+                <p class="concert__text">Cette année c’est l’orchestre d’harmonie de Belfort qui nous fera vivre le concert de musique culte du cinéma de Science-Fiction. Au programme: Star Wars, Interstelar et bien d’autres !</p>
+                <img class="concert__image" src="/assets/img/concert.webp" alt="">   
+            </div>
+            <a href="#" class="concert__link">En savoir plus <span class="concert__link-icon">></span></a>
+        </section>
+        <section class="section">
+            <h1 class="section__title">Films cultes</h1>
+            <div class="galerie">
+                <img src="assets/img/miniature/star_wars.webp" alt="" data-full-img="/assets/img/star_wars.jpg">
+                <img src="assets/img/miniature/interstellar.webp" alt="" data-full-img="/assets/img/interstellar.jpg">
+                <img src="assets/img/miniature/2001.webp" alt="" data-full-img="/assets/img/2001.jpg">
+                <img src="assets/img/miniature/alien.webp" alt="" data-full-img="/assets/img/alien.jpg">
+                <img src="assets/img/miniature/walle.webp" alt="" data-full-img="/assets/img/walle.jpg">
+                <img src="assets/img/miniature/cinquieme_element.webp" alt="" data-full-img="/assets/img/cinquieme_element.jpg">
+            </div>
+            <dialog id="lightbox"><img src="/assets/img/star_wars.jpg" alt="">
+                <p>caca</p>
+            </dialog>
+        </section>
+        <section class="section">
+            <h1 class="section__title">Nouveautés</h1>
+            <div class="carousel__container" role="region" aria-live="polite">
+                <div class="carousel__item">
+                  <img id="img1" src="/assets/img/film1.webp" alt="Image 1" />
+                  <p class="item__text">caca</p> 
+                </div>
+                <div class="carousel__item">
+                  <img id="img2" src="/assets/img/film2.webp" alt="Image 2" />
+                  <p class="item__text">caca</p> 
+                </div>
+                <div class="carousel__item">
+                  <img id="img3" src="/assets/img/film3.webp" alt="Image 3" />
+                  <p class="item__text">caca</p> 
+                </div>
+                <div class="carousel__item">
+                  <img id="img4" src="/assets/img/film4.webp" alt="Image 4" />
+                  <p class="item__text">caca</p> 
+                </div>
+                <div class="carousel__item">
+                  <img id="img5" src="/assets/img/film5.webp" alt="Image 5" />
+                  <p class="item__text">caca</p> 
+                </div>
+              </div>
+              <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                  <img src="/assets/img/icon_arrowcarrousel.svg" alt="fleche gauche" />
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                  <img src="/assets/img/icon_arrowcarrousel.svg" alt="fleche droite" />
+                </button>
+              </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h1 class="footer__title">SciFi'stival</h1>
+
+        <nav class="footer__menu">
+            <h3 class="footer__intertitle">Menu</h3>
+            <div class="footer__menu-item">Programmation</div>
+            <div class="footer__menu-item">Invités</div>
+            <div class="footer__menu-item">Lieu</div>
+            <div class="footer__menu-item">À Propos</div>
+        </nav>
+        
+        <div class="footer__contact">
+            <h3 class="footer__intertitle">Contact</h3>
+            <div class="footer__contact--item">Maison de quartier Oikos</div>
+            <div class="footer__contact--item">22, avenue de Capitaine-de-la-Laurencie</div>
+            <div class="footer__contact--item">90000 Belfort</div>
+            <div class="footer__contact--item">03 XX XX XX XX</div>
+            <div class="footer__contact--item">scifestival@xxxxx.xx</div>
+        </div>
+    </footer>
+</body>

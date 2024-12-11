@@ -1,0 +1,39 @@
+#lightbox{
+    border-color: var(--bleu);
+    border-radius: 0px; ;
+}
+
+#lightbox::backdrop{
+    background: black;
+    animation: fond 1s forwards;
+}
+
+
+#lightbox {
+      animation: open 0.2s forwards;
+    }
+  
+  @keyframes fond{
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 50%;
+    }
+  }
+
+  @keyframes open {
+    from {
+      transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+  }
+  .galerie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    max-width: 800px; 
+    margin: 0 auto;
+  }

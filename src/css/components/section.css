@@ -1,9 +1,15 @@
 .section{
     margin: 24px;
+    margin-bottom: 100px;
     color: white;
     display: block;
     justify-content: center; 
     align-items: center;
+}
+.section__title{
+    font-family: Orbitron;
+    font-weight: 400;
+    font-size: var(--heading-1);
 }
 .section__info{
     display: flex;
@@ -19,6 +25,7 @@
     
 }
 .btn{
+    margin-top: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,15 +39,44 @@
     background-color: white;
     padding: 0.8em 2.2em;
     border-radius: 50em;
-    border: 6px solid #8b93f8;
+    border: 6px solid #82A1E7;
     box-shadow: 0px 8px var(--bleu);
   }
   .button:active {
     position: relative;
     top: 8px;
-    border: 6px solid #646fff;
+    border: 6px solid #82A1E7;
     box-shadow: 0px 0px;
   }
 .button__text{
     font-family: Orbitron;
+}
+.section__concert{
+    display: flex;
+    gap: 16px;
+}
+.concert__text{
+    font-family: Lexend;
+    font-size: var(--body);
+}
+.concert__image{
+    margin: 14px 0;
+    width: 128px;
+    height: 80px;
+}
+.concert__link{
+    display: flex;
+    justify-content: right;
+    font-family: Orbitron;
+    font-size:var(--small-small-text);
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.concert__link-icon {
+    font-family: Orbitron;
+    font-size: var(--heading-3);
+    margin-left: 5px;
+    margin-top: -6px;
 }
