@@ -29,8 +29,11 @@ img {
     display: flex;/* Utilise flexbox pour aligner le contenu du bouton - https://developer.mozilla.org/fr/docs/Web/CSS/display */
     align-items: center; /* Aligne le contenu du bouton au centre verticalement - https://developer.mozilla.org/fr/docs/Web/CSS/align-items */
     justify-content: center; /* Centre le contenu du bouton horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
-    border-radius: 50%; /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
-    background-color: white;
+    border-radius: 100%; /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+    background-color: black;
+    border-inline-start: black;
+    border-inline-end: black;
+    border-top: 10px;
     box-shadow: var(--neon);
   }
   .carousel__button--prev {
@@ -55,4 +58,11 @@ img {
   .carousel__item img {
     display: block; /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
     
+  }
+
+  .carousel__item1 {
+    display: flex;
+    margin-left: 20px;
+    flex: 1 0 80%; /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
+    scroll-snap-align: center; /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
   }

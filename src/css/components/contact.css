@@ -1,0 +1,186 @@
+.concontact {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+.contact {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    outline: 0;
+    width: 80%;
+    background-color: transparent;
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #3366cc;
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #3366cc;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .form .group textarea {
+    resize: none;
+    height: 100px;
+  }
+  /* From Uiverse.io by JkHuger */ 
+  .contact__button {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .contact__button label {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .contact__button label input {
+    display: none;
+  }
+  
+  .contact__button label span {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #3F8EFC;
+    border-radius: 5px;
+  }
+  
+  .contact__button label input:checked ~ span {
+    background: #87E544;
+    animation: downloadSuccess 3.1s ease;
+  }
+  
+  .contact__button label span:after {
+    content: 'Envoyer';
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 10%;
+  }
+  
+  .contact__button label input:checked ~ span:after {
+    content: 'Merci !';
+    animation: downloadState 3s;
+  }
+  
+  .contact__button label span:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    background: rgba(255,255,255,.2);
+  }
+  
+  .contact__button label input:checked ~ span:before {
+    animation: downloadProgress 3s cubic-bezier(.67,.13,.1,.81);
+  }
+  
+  @keyframes downloadSuccess {
+    0%, 90% {
+      background: #3F8EFC;
+    }
+  
+    100% {
+      background: #87E544;
+    }
+  }
+  
+  @keyframes downloadState {
+    0%, 95% {
+      content: 'Envoi...'
+    }
+  
+    100% {
+      content: 'Merci !'
+    }
+  }
+  
+  @keyframes downloadProgress {
+    0% {
+      width: 5%;
+      opacity: 1;
+    }
+  
+    35% {
+      width: 17%;
+    }
+  
+    64% {
+      width: 51%;
+    }
+  
+    81% {
+      width: 70%;
+    }
+  
+    90% {
+      width: 86%;
+      opacity: 1;
+    }
+  
+    100% {
+      width: 100%;
+      opacity: 0;
+    }
+  }
