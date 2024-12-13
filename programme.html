@@ -58,40 +58,42 @@
         <section class="section">
             <h1 class="section__title">Films cultes</h1>
             <div class="galerie">
-                <img src="assets/img/miniature/star_wars.webp" alt="" data-full-img="/assets/img/star_wars.jpg">
-                <img src="assets/img/miniature/interstellar.webp" alt="" data-full-img="/assets/img/interstellar.jpg">
-                <img src="assets/img/miniature/2001.webp" alt="" data-full-img="/assets/img/2001.jpg">
-                <img src="assets/img/miniature/alien.webp" alt="" data-full-img="/assets/img/alien.jpg">
-                <img src="assets/img/miniature/walle.webp" alt="" data-full-img="/assets/img/walle.jpg">
-                <img src="assets/img/miniature/cinquieme_element.webp" alt="" data-full-img="/assets/img/cinquieme_element.jpg">
+                <img src="assets/img/miniature/star_wars.webp" alt="" data-full-img="/assets/img/star_wars.jpg" data-full-txt="Star Wars IV" data-full-hour="Samedi 9H">
+                <img src="assets/img/miniature/interstellar.webp" alt="" data-full-img="/assets/img/interstellar.jpg" data-full-txt="Interstellar" data-full-hour=" Samedi 13H">
+                <img src="assets/img/miniature/2001.webp" alt="" data-full-img="/assets/img/2001.jpg" data-full-txt="2001 l'Odyssée de l'Espace"data-full-hour="Samedi 16H">
+                <img src="assets/img/miniature/alien.webp" alt="" data-full-img="/assets/img/alien.jpg" data-full-txt="Alien" data-full-hour="Samedi 19H">
+                <img src="assets/img/miniature/walle.webp" alt="" data-full-img="/assets/img/walle.jpg" data-full-txt="Wall-e" data-full-hour=" Samedi 22H">
+                <img src="assets/img/miniature/cinquieme_element.webp" alt="" data-full-img="/assets/img/cinquieme_element.jpg" data-full-txt="Le Cinquième Élément" data-full-hour="Samedi 01H">
             </div>
             <dialog id="lightbox"><img src="/assets/img/star_wars.jpg" alt="">
-                <p>caca</p>
+              <div class="dialog__info">
+                <h2 class="dialog__title">TEST</h2>
+                <p class="dialog__text">test</p>
+              </div>
             </dialog>
         </section>
+
         <section class="section">
             <h1 class="section__title">Nouveautés</h1>
+            <div class="section__carousel">
             <div class="carousel__container" role="region" aria-live="polite">
                 <div class="carousel__item1">
-                  <img id="img1" src="/assets/img/film1.webp" alt="Image 1" />
-                  <p class="item__text">caca</p> 
+                  <img id="img1" src="/assets/img/miniature/film1.webp" alt="Image 1" data-full-img="/assets/img/film1.webp" data-full-txt="NomDuFilm1" data-full-hour="Dimanche 13H"/>
                 </div>
                 <div class="carousel__item">
-                  <img id="img2" src="/assets/img/film2.webp" alt="Image 2" />
-                  <p class="item__text">caca</p> 
+                  <img id="img2" src="/assets/img/miniature/film2.webp" alt="Image 2" data-full-img="/assets/img/film2.webp" data-full-txt="NomDuFilm2" data-full-hour="Dimanche 15H"/>
                 </div>
                 <div class="carousel__item">
-                  <img id="img3" src="/assets/img/film3.webp" alt="Image 3" />
-                  <p class="item__text">caca</p> 
+                  <img id="img3" src="/assets/img/miniature/film3.webp" alt="Image 3" data-full-img="/assets/img/film3.webp" data-full-txt="NomDuFilm3" data-full-hour="Dimanche 17H"/>
                 </div>
                 <div class="carousel__item">
-                  <img id="img4" src="/assets/img/film4.webp" alt="Image 4" />
-                  <p class="item__text">caca</p> 
+                  <img id="img4" src="/assets/img/miniature/film4.webp" alt="Image 4" data-full-img="/assets/img/film4.webp" data-full-txt="NomDuFilm4" data-full-hour="Dimanche 19H"/>
                 </div>
                 <div class="carousel__item">
-                  <img id="img5" src="/assets/img/film5.webp" alt="Image 5" />
-                  <p class="item__text">caca</p> 
+                  <img id="img5" src="/assets/img/miniature/film5.webp" alt="Image 5" data-full-img="/assets/img/film5.webp" data-full-txt="NomDuFilm5" data-full-hour="Dimanche 21H"/>
                 </div>
+              </div>
+              <p id="description">Description du film</p>
               </div>
               <div class="carousel__controls">
                 <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
@@ -100,6 +102,9 @@
                 <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
                   <img src="/assets/img/icon_arrowcarrousel.svg" alt="fleche droite" />
                 </button>
+              </div>
+              <div>
+                
               </div>
         </section>
       </main>

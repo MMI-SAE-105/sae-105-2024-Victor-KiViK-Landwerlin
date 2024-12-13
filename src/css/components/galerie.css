@@ -1,11 +1,14 @@
 #lightbox{
     border-color: var(--bleu);
-    border-radius: 0px; ;
+    border-radius: 0px; 
+    max-width: 75%;
+    box-shadow: var(--neon);
+
 }
 
 #lightbox::backdrop{
     background: black;
-    animation: fond 1s forwards;
+    animation: fond 0.1s forwards;
 }
 
 
@@ -18,7 +21,7 @@
       opacity: 0%;
     }
     to {
-      opacity: 50%;
+      opacity: 75%;
     }
   }
 
@@ -36,4 +39,21 @@
     gap: 20px; 
     max-width: 800px; 
     margin: 0 auto;
+  }
+
+  .dialog__text{
+    font-family: Lexend;
+    font-size: var(--heading-2);
+    color: black;
+    margin: 10px;
+  }
+  .dialog__title{
+    font-family: Lexend;
+    font-size: var(--heading-2);
+    color: var(--bleu);
+    margin: 10px;
+  }
+  .dialog__info{
+    display: flex;
+    justify-content: space-between;
   }

@@ -26,7 +26,26 @@ if (toggle && nav) {
 
 const lb = document.querySelector("#lightbox");
 const images = document.querySelectorAll("[data-full-img]");
+const texts = document.querySelectorAll("[data-full-txt]");
+const hours = document.querySelectorAll("[data-full-hour]");
 
+hours.forEach(hour => {
+    hour.addEventListener("click", function() {
+        const fullHour = hour.dataset.fullHour;
+        const h = lb.querySelector("h2");
+        h.textContent = fullHour;
+        lb.showModal();
+    });
+});
+
+texts.forEach(text => {
+    text.addEventListener("click", function() {
+        const fullTxt = text.dataset.fullTxt;
+        const t = lb.querySelector("p");
+        t.textContent = fullTxt;
+        lb.showModal();
+    });
+});
 
 images.forEach(image => {
     image.addEventListener("click", function() {
