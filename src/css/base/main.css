@@ -10,6 +10,19 @@ body{
     font-weight: 400;
     margin: 50px;
 }
+.titre__petit{
+    display: flex;
+    color: white;
+    font-size: var(--heading-2);
+    font-family: Orbitron;
+    font-weight: 400;
+    margin: 50px;
+}
 a{
     text-decoration: none;
+}
+.carte{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }

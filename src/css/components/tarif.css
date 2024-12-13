@@ -1,0 +1,27 @@
+.tarif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: var(--neon);
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.tarif__titre{
+    font-size: var(--heading-2);
+    font-family: Orbitron;
+    color: black;
+    font-weight: 400;
+    margin: 20px;
+}
+.tarif__prix{
+    font-size: var(--heading-1);
+    font-family: Orbitron;
+    color: black;
+    font-weight: 400;
+    margin: 20px;
+}

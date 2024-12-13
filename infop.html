@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi'stival</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script type="module" src="src/js/script.js"></script>
+</head>
+<body>
+    <header class="header container">
+        <a href="index.html"><h1 class="header__title">SciFi'stival</h1></a>
+        <div
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar"></span>
+        </div>
+  
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="festival.html">Le Festival</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="programme.html">Programme</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="films.html">Films</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="invites.html">Invités</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="infop.html">Infos pratiques</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="menu__round"></div>
+          </nav>
+          
+        </div>
+    </header>
+    <main>
+        <h1 class="titre">Infos Pratiques</h1>
+        <h2 class="titre__petit">Tarifs</h2>
+        <section class="section">
+        <div class="tarifs">
+            <div class="tarif">
+                <h3 class="tarif__titre">Tarif plein</h3>
+                <p class="tarif__prix">10€</p>
+            </div>
+            <div class="tarif">
+                <h3 class="tarif__titre">Tarif réduit</h3>
+                <p class="tarif__prix">8€</p>
+            </div>
+            <div class="tarif">
+                <h3 class="tarif__titre">Tarif enfant</h3>
+                <p class="tarif__prix">5€</p>
+            </div>
+        </section>
+        <h2 class="titre__petit">Lieux</h2>
+        <div class="carte">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.3455490829397!2d6.87131252590293!3d47.63885157119281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47923b5785e387f3%3A0x6844bbe18faf0b21!2sMaison%20de%20Quartier%20des%20Glacis%20du%20Ch%C3%A2teau-%20centre%20OiKOS!5e0!3m2!1sfr!2sfr!4v1734084503059!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <h1 class="footer__title">SciFi'stival</h1>
+        
+        <nav class="footer__menu">
+            <h3 class="footer__intertitle">Menu</h3>
+            <a href="programme.html"><div class="footer__menu--item">Programmation</div></a>
+            <a href="invites.html"><div class="footer__menu--item">Invités</div></a>
+            <a href="infop.html"><div class="footer__menu--item">Lieu</div></a>
+            <a href="festival.html"><div class="footer__menu--item">À Propos</div></a>
+        </nav>
+            
+        <div class="footer__contact">
+            <h3 class="footer__intertitle">Contact</h3>
+            <div class="footer__contact--item">Maison de quartier Oikos</div>
+            <div class="footer__contact--item">22, avenue de Capitaine-de-la-Laurencie</div>
+            <div class="footer__contact--item">90000 Belfort</div>
+            <div class="footer__contact--item">03 XX XX XX XX</div>
+            <div class="footer__contact--item">scifestival@xxxxx.xx</div>
+        </div>
+    </footer>
+</body>
+</html>

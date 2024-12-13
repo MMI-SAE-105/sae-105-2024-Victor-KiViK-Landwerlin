@@ -97,3 +97,12 @@
     opacity: 0;
   }
 }
+.description{
+  max-width: 30%;
+  font-family: Lexend;
+  font-size: var(--body2);
+}
+.galerie__div{
+  font-family: Lexend;
+  
+}
