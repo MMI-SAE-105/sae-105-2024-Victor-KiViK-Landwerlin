@@ -35,11 +35,25 @@
   }
   .galerie{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px; 
-    max-width: 800px; 
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
   }
+.real{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+  }
+.real h2{
+  font-family: Orbitron;
+  font-weight: 400;
+  font-size: var(--heading-3);
+}
+.real p{
+  font-family: Lexend;
+  font-size: var(--body);
+  color: white;
+}
 
   .dialog__text{
     font-family: Lexend;
@@ -57,3 +71,29 @@
     display: flex;
     justify-content: space-between;
   }
+  .real2{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    animation: charge 5s infinite alternate;
+  }
+  .cs__titre{
+    text-align: center;
+    font-size: var(--heading-1);
+    font-family: Orbitron;
+    font-weight: 400;
+    color: white;
+    text-shadow: var(--neon);
+    -webkit-text-stroke:0.5px var(--bleu);
+  }
+@keyframes charge{
+  from {
+    opacity:0 ;
+  }
+  50%{ 
+    opacity: 50%;
+  }
+  to {
+    opacity: 0;
+  }
+}
